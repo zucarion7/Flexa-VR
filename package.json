@@ -1,0 +1,20 @@
+{
+  "name": "flexavr",
+  "version": "1.0.0",
+  "main": "cd ./frontend/index.html",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "front": "npm run dev -w=frontend",
+    "start": "npm run dev -w=frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zucarion7",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "three": "^0.177.0"
+  }
+}
